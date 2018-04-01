@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidCountryPicker</string>
+    <string name="search">Search</string>
+    <string name="select_country">Select Country</string>
+</resources>

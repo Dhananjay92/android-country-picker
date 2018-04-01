@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context="com.pavanpathro.androidcountrypicker.CountryCodePickerActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimenTwenty"
+        android:text="@string/select_country"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/dimenTwenty"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextSearch"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimenFourty"
+        android:layout_margin="@dimen/dimenTen"
+        android:background="@drawable/button_rounded_light_grey"
+        android:gravity="left|center_vertical"
+        android:hint="@string/search"
+        android:inputType="text"
+        android:maxLength="15"
+        android:paddingEnd="@dimen/dimenTen"
+        android:paddingLeft="@dimen/dimenTwenty"
+        android:paddingRight="@dimen/dimenTen"
+        android:paddingStart="@dimen/dimenTwenty"
+        android:textColor="@color/colorBlack" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewCountries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimenTen"
+        app:layout_constraintTop_toBottomOf="@id/editTextSearch" />
+
+</LinearLayout>
