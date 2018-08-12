@@ -1,7 +1,16 @@
 # android-country-picker
 
-Intent intent = new Intent(this, CountryCodePickerActivity.class);
-startActivityForResult(intent, CountryCodePickerUtil.REQUEST_CODE_COUNTRY_CODE_PICKER);
+to start country picker
+
+
+    Intent intent = new Intent(this, CountryCodePickerActivity.class);
+    startActivityForResult(intent, CountryCodePickerUtil.REQUEST_CODE_COUNTRY_CODE_PICKER);
+
+
+
+
+to get the selected country
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
