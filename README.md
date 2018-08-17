@@ -1,6 +1,6 @@
-# android-country-picker
+# Country Picker for Android
 
-to start country picker
+<b>Start country picker</b>
 
 
     Intent intent = new Intent(this, CountryCodePickerActivity.class);
@@ -9,7 +9,7 @@ to start country picker
 
 
 
-to get the selected country
+<b>Get the selected country</b>
 
 
     @Override
@@ -23,3 +23,14 @@ to get the selected country
         }
         super.onActivityResult(requestCode, resultCode, data);
     }
+
+<b>Sample Images</b>
+
+<div>
+    <img src="https://github.com/PavanKumarPatruni/android-country-picker/blob/master/Screenshot_20180817-053024.jpg">
+    <img src="https://github.com/PavanKumarPatruni/android-country-picker/blob/master/Screenshot_20180817-053100.jpg">
+</div>
+
+<h3>Author</h3>
+
+<b>Pavan Kumar Patruni</b>
