@@ -27,8 +27,7 @@
 <b>Sample Images</b>
 
 <div>
-    <img src="https://github.com/PavanKumarPatruni/android-country-picker/blob/master/Screenshot_20180817-053024.jpg">
-    <img src="https://github.com/PavanKumarPatruni/android-country-picker/blob/master/Screenshot_20180817-053100.jpg">
+    <img src="https://github.com/PavanKumarPatruni/android-country-picker/blob/master/Screen%20Shot%202018-08-17%20at%205.39.24%20AM.png">
 </div>
 
 <h3>Author</h3>
